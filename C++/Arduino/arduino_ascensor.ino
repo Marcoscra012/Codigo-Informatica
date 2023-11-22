@@ -1,3 +1,5 @@
+//Codigo para un uascensor que hicimos entre 3 en la asignatura de Tecnología en 4º ESO
+
 const int subir = 7;
 const int bajar = 8;
 int piso = 1;
