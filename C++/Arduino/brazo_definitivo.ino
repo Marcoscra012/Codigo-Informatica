@@ -1,3 +1,6 @@
+//Codigo para un brazo robótico que hicimos un amigo y yo en 4º ESO para el final de la asignatura de Tecnología, aunque tambien lo presentamos para la Feria de la Ciencia de ese año
+//El brazo funciona con 2 joysticks que controlan 2 servomotores para mover el brazo y doblarlo
+
 #include <AsyncStepper.hpp>
 #include <Servo.h>
 
