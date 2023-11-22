@@ -1,3 +1,6 @@
+//Este codigo tiene una pantalla led, un joystick y un LED RGB.
+//Con el joystick seleccionas un color que aparece en la pantalla y si presionas el joystick el LED RGB se pone del color de la pantalla
+
 #include <LiquidCrystal.h>
 #define pinHorizontal A0
 #define pinVertical A1
