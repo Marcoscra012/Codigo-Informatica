@@ -1,4 +1,5 @@
 //Codigo para un uascensor que hicimos entre 3 en la asignatura de Tecnología en 4º ESO
+//No teniamos sensores para detectar el ascensor por lo que tuvimos que hacerlo modificando el tiempo
 
 const int subir = 7;
 const int bajar = 8;
