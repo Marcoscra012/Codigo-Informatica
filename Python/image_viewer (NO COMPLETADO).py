@@ -1,3 +1,6 @@
+#This code is for a simple image viewer I tried to make
+#It isn't completed but GUI and some basic functions are there
+
 import PySimpleGUI as sg
 import os.path
 
