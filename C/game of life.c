@@ -102,8 +102,8 @@ int main(){
         printf("\n");
         for(row = 0; row < NROW; row++){
             for(col = 0; col < NCOL; col++){
-                if(mat[row][col] == 1) printf("* ");
-                else printf("%d ", mat[row][col]);
+                if(mat[row][col] == 1) printf("o ");
+                else printf("x ");
             }
             printf("\n");
         }
