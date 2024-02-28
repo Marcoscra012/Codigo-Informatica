@@ -1,11 +1,7 @@
 #include <stdio.h>
 
 /*
-    INF                 REAL
-00 01 02 03     |   11 12 13 14
-10 11 12 13     |   21 22 23 24
-20 21 22 23     |   31 32 33 34
-30 31 32 33     |   41 42 43 44
+No esta terminado pero hace determinantes de matrices cuadradas de orden 2 y 3
 */
 
 int matriz_2(int matriz[2][2]){
@@ -41,29 +37,7 @@ int matriz_3(int matriz[3][3]){
 }
 
 int matriz_4(int orden, int matriz[orden][orden]){
-    int res;
-    int temp;
-    int temp_matriz;
-    int i;
-    int j;
-    int t_i;
-    int t_j;
-
-    for(i = 1; i < orden; i++){
-        for(j = 0; j < orden; j++){
-            // crear una matriz temporal
-            for(t_i = 1; t_i < orden-1; t_i++){
-                for(t_j = 0; t_j < orden-1; t_j++){
-                    if(t_j != j){
-                        temp_matriz[t_i][t_j] = matriz[t_i][t_j];
-                    }
-                }
-            }
-            temp = matriz[0][j] * (-1**(1+j+1)) * matriz_3(temp_matriz);
-        }
-    }
-
-    return res;
+    return 0;
 }
 
 int main(){
